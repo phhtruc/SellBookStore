@@ -131,3 +131,7 @@ C:\Users\USER\Desktop\SellBookStore\obj\Debug\SellBookStore.csprojAssemblyRefere
 C:\Users\USER\Desktop\SellBookStore\obj\Debug\SellBookStore.csproj.CoreCompileInputs.cache
 C:\Users\USER\Desktop\SellBookStore\obj\Debug\SellBookStore.dll
 C:\Users\USER\Desktop\SellBookStore\obj\Debug\SellBookStore.pdb
+D:\CODE\XML\XML_CUOIKY\SellBookStore\obj\Debug\SellBookStore.csproj.AssemblyReference.cache
+D:\CODE\XML\XML_CUOIKY\SellBookStore\obj\Debug\SellBookStore.csproj.CoreCompileInputs.cache
+D:\CODE\XML\XML_CUOIKY\SellBookStore\obj\Debug\SellBookStore.dll
+D:\CODE\XML\XML_CUOIKY\SellBookStore\obj\Debug\SellBookStore.pdb

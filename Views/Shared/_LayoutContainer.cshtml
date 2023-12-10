@@ -26,7 +26,7 @@
         <!-- Sidebar  -->
         <div class="iq-sidebar">
             <div class="iq-sidebar-logo d-flex justify-content-between">
-                <a href="@Url.Action("Index", "Home")" class="header-logo">
+                <a href="~/Home" class="header-logo">
                     <img src="~/Assets/images/logo.png" class="img-fluid rounded-normal" alt="">
                     <div class="logo-title">
                         <span class="text-primary text-uppercase">NHASACHTV</span>
@@ -50,7 +50,6 @@
                                     {
 
                                         <li class="elements">
-
                                             <a class="iq-waves-effect collapsed" href="@Url.Action("Index", "SanPhamTheoLoai", new { maloai = category.CateId })">@category.Title</a>
                                         </li>
                                     }
@@ -61,7 +60,8 @@
                                 }
                             </ul>
                         </li>
-
+                        <li><a href="@Url.Action("Index", "ViewXML")">Xem dữ liệu dưới dạng XML</a></li>
+                        <li><a href="@Url.Action("Index", "XMLtoSQL")">Cập nhật dữ liệu sang SQL</a></li>
                     </ul>
                 </nav>
             </div>
@@ -247,28 +247,14 @@
                             </li>
                             <li class="line-height pt-3">
                                 <a href="#" class="search-toggle iq-waves-effect d-flex align-items-center">
-                                    @if (Session["userGG"] != null)
-                                    {
-                                        SellBookStore.Models.GoogleProfile us = Session["userGG"] as SellBookStore.Models.GoogleProfile;
-                                        <img src="@us.Image" class="img-fluid rounded-circle mr-3" alt="user">
-                                    }
-                                    else
-                                    {
-                                        <img src="https://t4.ftcdn.net/jpg/02/29/75/83/360_F_229758328_7x8jwCwjtBMmC6rgFzLFhZoEpLobB6L8.jpg" class="img-fluid rounded-circle mr-3" alt="user">
-                                    }
-
+                                    <img src="~/Assets/images/user/1.jpg" class="img-fluid rounded-circle mr-3" alt="user">
                                     <div class="caption">
                                         <h6 class="mb-1 line-height">
-                                            @if (Session["userGG"] != null)
-                                            {
-                                                SellBookStore.Models.GoogleProfile us = Session["userGG"] as SellBookStore.Models.GoogleProfile;
-                                                @us.DisplayName;
-                                            }
                                             @if (Session["UserName"] != null)
                                             {
                                                 @Session["UserName"];
                                             }
-                                            @if (Session["UserName"] == null && Session["userGG"] == null)
+                                            else
                                             {
                                                 <span>Khách</span>
                                             }
@@ -333,7 +319,7 @@
                                                 </div>
                                             </a>
                                             <div class="d-inline-block w-100 text-center p-3">
-                                                @if (Session["UserName"] != null || Session["userGG"] != null)
+                                                @if (Session["UserName"] != null)
                                                 {
                                                     <a class="bg-primary iq-sign-btn" href="@Url.Action("Logout", "SignIn")" role="button">Log Out<i class="ri-login-box-line ml-2"></i></a>
                                                 }
