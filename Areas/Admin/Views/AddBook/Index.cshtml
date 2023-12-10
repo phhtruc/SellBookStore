@@ -1,8 +1,71 @@
-﻿
+﻿@model SellBookStore.Models.Books
+
 @{
     ViewBag.Title = "Index";
-    Layout = "~/Views/Shared/_LayoutContainer.cshtml";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout_Admin.cshtml";
 }
+<div id="content-page" class="content-page">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="iq-card">
+                    <div class="iq-card-header d-flex justify-content-between">
+                        <div class="iq-header-title">
+                            <h4 class="card-title">Thêm sách</h4>
+                        </div>
+                    </div>
+                    <div class="iq-card-body">
+                        <form method="post" action="/Admin/Addbook/Themsachmoi" enctype="multipart/form-data">
+                            <div class="form-group">
+                                <label>Tên sách:</label>
+                                @Html.EditorFor(model => model.Title, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Title, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="form-group">
+                                <label>Danh mục sách:</label>
+                                <select class="form-control" id="selectedValue" name="selectedValue">
+                                    <option selected="" disabled="">Danh mục sách</option>
+                                    @if (@ViewBag.ListCate != null)
+                                    {
+                                        var cates = (List<SellBookStore.Models.Catetory>)ViewBag.ListCate;
+                                        foreach (var item in cates)
+                                        {
+                                            <option value=@item.CateId>@item.Title</option>
+                                        }
+                                    }
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Tác gải sách:</label>
+                                @Html.EditorFor(model => model.Author, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Author, "", new { @class = "text-danger" })
+                            </div>
 
-<h2>Index</h2>
+                            <div class="form-group">
+                                <label for="file">Choose Image:</label>
+                                <input type="file" name="uploadhinh" id="uploadhinh" />
+                            </div>
+                            <div class="form-group">
+                                <label for="file">File book:</label>
+                                <input type="file" name="file" id="file" />
+                            </div>
+                            <div class="form-group">
+                                <label>Giá sách:</label>
+                                @Html.EditorFor(model => model.Price, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Price, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="form-group">
+                                <label>Nội dung:</label>
+                                @Html.EditorFor(model => model.Mota, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Mota, "", new { @class = "text-danger" })
+                            </div>
+                            <button type="submit" class="btn btn-primary">Thêm sách</button>
+                            <button type="reset" class="btn btn-danger">Trở lại</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 

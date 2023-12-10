@@ -127,3 +127,7 @@ C:\Users\Admin\OneDrive - University of Technology and Education\Desktop\SellBoo
 C:\Users\Admin\OneDrive - University of Technology and Education\Desktop\SellBookStore\bin\System.Memory.xml
 C:\Users\Admin\OneDrive - University of Technology and Education\Desktop\SellBookStore\bin\System.Numerics.Vectors.xml
 C:\Users\Admin\OneDrive - University of Technology and Education\Desktop\SellBookStore\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\USER\Desktop\SellBookStore\obj\Debug\SellBookStore.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\SellBookStore\obj\Debug\SellBookStore.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\SellBookStore\obj\Debug\SellBookStore.dll
+C:\Users\USER\Desktop\SellBookStore\obj\Debug\SellBookStore.pdb

@@ -3,6 +3,13 @@
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+@model System.Xml.Linq.XDocument
 
-<h2>Index</h2>
+<div id="xmlDataContainer">
+    <h2>ViewXML của Nhóm</h2>
 
+
+<pre>
+        @(Model)
+    </pre>
+</div>

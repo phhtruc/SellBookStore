@@ -597,7 +597,6 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Cart\Index.cshtml" />
     <Content Include="Views\DetailProduct\Index.cshtml" />
-    <Content Include="Views\Login\Index.cshtml" />
     <Content Include="Views\ReadBook\Index.cshtml" />
     <Content Include="Views\SanPhamTheoLoai\Index.cshtml" />
     <Content Include="Views\ShoppingCart\Index.cshtml" />
