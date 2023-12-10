@@ -1,42 +1,56 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Booksto - Responsive Bootstrap 4 Admin Dashboard Template</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="~/Assets/css/bootstrap.min.css">
+    <!-- Typography CSS -->
+    <link rel="stylesheet" href="~/Assets/css/typography.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="~/Assets/css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="~/Assets/css/responsive.css">
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                </ul>
-            </div>
-        </div>
+    <div id="loading">
+        <div id="loading-center"></div>
     </div>
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>
-    </div>
-
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @RenderSection("scripts", required: false)
+    @RenderBody()
+    <script src="~/Assets/js/jquery.min.js"></script>
+    <script src="~/Assets/js/popper.min.js"></script>
+    <script src="~/Assets/js/bootstrap.min.js"></script>
+    <!-- Appear JavaScript -->
+    <script src="~/Assets/js/jquery.appear.js"></script>
+    <!-- Countdown JavaScript -->
+    <script src="~/Assets/js/countdown.min.js"></script>
+    <!-- Counterup JavaScript -->
+    <script src="~/Assets/js/waypoints.min.js"></script>
+    <script src="~/Assets/js/jquery.counterup.min.js"></script>
+    <!-- Wow JavaScript -->
+    <script src="~/Assets/js/wow.min.js"></script>
+    <!-- Apexcharts JavaScript -->
+    <script src="~/Assets/js/apexcharts.js"></script>
+    <!-- lottie JavaScript -->
+    <script src="~/Assets/js/lottie.js"></script>
+    <!-- Slick JavaScript -->
+    <script src="~/Assets/js/slick.min.js"></script>
+    <!-- Select2 JavaScript -->
+    <script src="~/Assets/js/select2.min.js"></script>
+    <!-- Owl Carousel JavaScript -->
+    <script src="~/Assets/js/owl.carousel.min.js"></script>
+    <!-- Magnific Popup JavaScript -->
+    <script src="~/Assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- Smooth Scrollbar JavaScript -->
+    <script src="~/Assets/js/smooth-scrollbar.js"></script>
+    <!-- Style Customizer -->
+    <script src="~/Assets/js/style-customizer.js"></script>
+    <!-- Chart Custom JavaScript -->
+    <script src="~/Assets/js/chart-custom.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="~/Assets/js/custom.js"></script>
 </body>
 </html>
