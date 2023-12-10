@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@if (ViewBag.status == 1)
+{
+    <h2>Đã chuyển file users.xml sang sql thành công </h2>
+}
+else
+{
+    <h2>Đã thêm chuyển sang sql thất bại </h2>
+}
+
+<a href="@Url.Action("Index", "Home")">Trở lại trang chủ</a>
+

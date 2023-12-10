@@ -216,6 +216,8 @@
     <Compile Include="Controllers\ShoppingCartController.cs" />
     <Compile Include="Controllers\SignInController.cs" />
     <Compile Include="Controllers\SignUpController.cs" />
+    <Compile Include="Controllers\ViewXMLController.cs" />
+    <Compile Include="Controllers\XMLtoSQLController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -601,6 +603,8 @@
     <Content Include="Views\ShoppingCart\Index.cshtml" />
     <Content Include="Views\SignIn\Index.cshtml" />
     <Content Include="Views\SignUp\Index.cshtml" />
+    <Content Include="Views\XMLtoSQL\Index.cshtml" />
+    <Content Include="Views\ViewXML\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\XML\" />
