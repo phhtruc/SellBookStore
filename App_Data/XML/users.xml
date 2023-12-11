@@ -1,0 +1,54 @@
+<ATBUsers>
+  <User>
+    <CustomerID>28</CustomerID>
+    <FirstName>Van </FirstName>
+    <LastName>Bao</LastName>
+    <Email>admin@gmail.com</Email>
+    <Phone>0904973022</Phone>
+    <RoleID>1</RoleID>
+    <Username>NhomX</Username>
+    <Password>admin123</Password>
+    <address>
+    </address>
+    <city>
+    </city>
+  </User>
+  <User>
+    <CustomerID>33</CustomerID>
+    <FirstName>Ph?m </FirstName>
+    <LastName>Trúc</LastName>
+    <Email>baopam21@gmail.com</Email>
+    <Phone>0904973022</Phone>
+    <RoleID>2</RoleID>
+    <Username>Baor17</Username>
+    <Password>abc123</Password>
+    <address>
+    </address>
+    <city>
+    </city>
+  </User>
+  <User>
+    <CustomerID>34</CustomerID>
+    <FirstName>Ph?m Van B?o</FirstName>
+    <LastName>Ph?m</LastName>
+    <Email>baopam21@gmail.com</Email>
+    <Phone>0904973022</Phone>
+    <RoleID>2</RoleID>
+    <Username>bao bao</Username>
+    <Password>abc123</Password>
+    <address>
+    </address>
+    <city>
+    </city>
+  </User>
+  <User>
+    <CustomerID>35</CustomerID>
+    <FirstName> Bảo</FirstName>
+    <LastName>Phạm</LastName>
+    <RoleID>2</RoleID>
+    <Email>baopam@gmail.com</Email>
+    <Phone>0904973021</Phone>
+    <Username>bao pham</Username>
+    <Password>abc123</Password>
+  </User>
+</ATBUsers>

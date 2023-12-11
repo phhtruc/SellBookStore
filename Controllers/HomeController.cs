@@ -12,10 +12,11 @@ namespace SellBookStore.Controllers
 {
     public class HomeController : Controller
     {
-        private string connectionString = "Data Source=LAPTOP-ESH6K3C9\\SQLEXPRESS;Initial Catalog=SellBookStore;Integrated Security=True";
+        private string connectionString = "Data Source=LAPTOP-9DPP351S;Initial Catalog=SellBookStore;Integrated Security=True";
         SellBookStoreContext db = new SellBookStoreContext();
         public ActionResult Index()
         {
+            
             List<Books> booksList = LoadBooksFromXml();
             List<Customers> usersList = LoadUsersFromXml();
             var listCate = db.Catetory.ToList();
@@ -44,7 +45,7 @@ namespace SellBookStore.Controllers
                     book.Price = decimal.Parse(bookNode.SelectSingleNode("Price").InnerText);
                     book.Image = bookNode.SelectSingleNode("Image").InnerText;
                     book.Mota = bookNode.SelectSingleNode("mota").InnerText;
-                    book.Filebook = bookNode.SelectSingleNode("Filebook").InnerText;
+                    book.FileBook = bookNode.SelectSingleNode("FileBook").InnerText;
                     booksList.Add(book);
                 }
             }
@@ -181,5 +182,26 @@ namespace SellBookStore.Controllers
             }
             return usersList;
         }
+        private void resetFile()
+        {
+            string xmlFilePathuser = Server.MapPath("~/App_Data/XML/users.xml");
+            string xmlFilePathbook = Server.MapPath("~/App_Data/XML/books.xml");
+            if(System.IO.File.Exists(xmlFilePathuser)|| System.IO.File.Exists(xmlFilePathbook))
+            {
+                    try
+                    {
+                        // Xóa tệp XML
+                        System.IO.File.Delete(xmlFilePathuser);
+                        System.IO.File.Delete(xmlFilePathbook);
+                    }
+                    catch (Exception ex)
+                    {
+                    }
+                }
+            else
+                {
+                    ViewBag.Message = "Tệp XML không tồn tại.";
+                }
+            }
     }
 }

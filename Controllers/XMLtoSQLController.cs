@@ -1,8 +1,11 @@
-﻿using System;
+﻿using SellBookStore.Models;
+using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Xml;
 
 namespace SellBookStore.Controllers
 {
@@ -12,6 +15,8 @@ namespace SellBookStore.Controllers
         private string connectionString = "Data Source=LAPTOP-9DPP351S;Initial Catalog=SellBookStore;Integrated Security=True";
         public ActionResult Index()
         {
+            int status = SaveToSql();
+            ViewBag.status = status;
             return View();
         }
         private int SaveToSql()

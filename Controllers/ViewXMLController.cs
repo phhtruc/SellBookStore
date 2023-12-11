@@ -13,7 +13,7 @@ namespace SellBookStore.Controllers
 {
     public class ViewXMLController : Controller
     {
-        private string connectionString = "Data Source=dell;Initial Catalog=SellBookStore;User ID=sa;Password=123456";
+        private string connectionString = "Data Source=LAPTOP-9DPP351S;Initial Catalog=SellBookStore;Integrated Security=True";
         // GET: ViewXML
         public ActionResult Index()
         {

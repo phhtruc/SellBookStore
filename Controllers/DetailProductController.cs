@@ -33,7 +33,7 @@ namespace SellBookStore.Controllers
                         book.Price = decimal.Parse(userNode.SelectSingleNode("Price").InnerText);
                         book.Image = userNode.SelectSingleNode("Image").InnerText;
                         book.Mota = userNode.SelectSingleNode("mota").InnerText;
-                        book.Filebook = userNode.SelectSingleNode("Filebook").InnerText;
+                        book.FileBook = userNode.SelectSingleNode("FileBook").InnerText;
                     }
                 }
             }
@@ -59,7 +59,7 @@ namespace SellBookStore.Controllers
         {
             var book = db.Books.Find(masach);
             // Đường dẫn tới tệp tin trên máy chủ
-            string filePath = Server.MapPath("~/Assets/BooksFilePdf/" + book.Filebook);
+            string filePath = Server.MapPath("~/Assets/BooksFilePdf/" + book.FileBook);
             string fileName = book.Title + ".pdf"; // Tên tệp tin khi tải về
 
             // Kiểm tra xem tệp tin có tồn tại không

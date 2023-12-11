@@ -1,0 +1,135 @@
+<anh>
+  <Book>
+    <BookID>1</BookID>
+    <Title>Bí Quyết Làm Giàu Của Napoleon Hill (Tái Bản 2019)</Title>
+    <Author>Napoleon Hill</Author>
+    <Price>79</Price>
+    <Image>img01.jpg</Image>
+    <CateID>1</CateID>
+    <mota>"Trong chứng khoán và thị trường tài chính, dám tham gia đầu tư cũng là một thành công tâm lý ban đầu. Dù vậy, 95% nhà đầu tư Việt Nam thuộc nhóm nhà đầu tư nhỏ lẻ với vốn kiến thức tài chính vô cùng hạn chế. Họ tham gia vào thị trường chứng khoán với 100% ý chí và sự quyết tâm chiến thắng thị trường, nhưng thật không may mắn kết cục cuối cùng của họ luôn là sự thất bại và mất tiền.</mota>
+    <FileBook>biquyetlamgiau.pdf</FileBook>
+  </Book>
+  <Book>
+    <BookID>2</BookID>
+    <Title>Trên Ðỉnh Phố Wall(Tái bản 2019)</Title>
+    <Author>Harper Lee</Author>
+    <Price>15</Price>
+    <Image>02.jpg</Image>
+    <CateID>1</CateID>
+    <mota>
+"Trên Đỉnh Phố Wall (Tái bản 2019) là một tác phẩm văn học nổi tiếng, tái hiện lại cuộc sống sôi động và ngang tàng trên tầng đỉnh của thị trường tài chính. Tác phẩm đưa độc giả đến với thế giới huyên bí của Wall Street, nơi những cuộc chiến tranh tài chính đỉnh cao diễn ra, với sự tái bản năm 2019, nó tiếp tục là nguồn cảm hứng cho những người tìm kiếm sự thành công trong thế giới kinh doanh khốc liệt."</mota>
+    <FileBook>trendinhphowall.pdf</FileBook>
+  </Book>
+  <Book>
+    <BookID>3</BookID>
+    <Title>Ðến Starbucks Mua Cà Phê Cốc Lớn</Title>
+    <Author>George Orwell</Author>
+    <Price>11</Price>
+    <Image>03.jpg</Image>
+    <CateID>1</CateID>
+    <mota>Hãy trải nghiệm hương vị tuyệt vời tại Starbucks với Cà Phê Cốc Lớn, một biểu tượng của sự pha chế tinh tế và chất lượng. Với hỗn hợp cà phê đắng ngắt và đường sữa thơm ngon, đây là lựa chọn hoàn hảo để bắt đầu ngày mới hoặc tận hưởng giây phút thư giãn. Cảm nhận sự đậm đà và ngọt ngào, Cà Phê Cốc Lớn của chúng tôi sẽ mang lại trải nghiệm cà phê không thể quên.</mota>
+    <FileBook>1.pdf</FileBook>
+  </Book>
+  <Book>
+    <BookID>4</BookID>
+    <Title>Kinh Tế Học Viking</Title>
+    <Author>Jane Austen</Author>
+    <Price>10</Price>
+    <Image>04.jpg</Image>
+    <CateID>1</CateID>
+    <mota>"
+Kinh Tế Học Viking là một lĩnh vực nghiên cứu tại trung tâm của Khoa học Xã hội học, tập trung vào hiểu biết về cơ cấu kinh tế của người Viking thời Trung cổ. Điều này bao gồm nghiên cứu về thương mại, nông nghiệp, và hệ thống kinh tế tự nhiên của họ."</mota>
+    <FileBook>1.pdf</FileBook>
+  </Book>
+  <Book>
+    <BookID>5</BookID>
+    <Title>Cha Giàu Cha Nghèo</Title>
+    <Author>J.D. Salinger</Author>
+    <Price>12</Price>
+    <Image>05.jpg</Image>
+    <CateID>2</CateID>
+    <mota>"Cha Giàu Cha Nghèo" của tác giả Robert Kiyosaki là một cuốn sách kinh điển về tài chính cá nhân, chia sẻ những bí quyết thành công tài chính giữa hai phong cách quản lý tiền bạc khác nhau. Kiyosaki mở ra một góc nhìn mới, khuyến khích độc giả xem xét và thay đổi tư duy về cách tiếp cận đối với tiền bạc và đầu tư."</mota>
+    <FileBook>1.pdf</FileBook>
+  </Book>
+  <Book>
+    <BookID>6</BookID>
+    <Title>Find The Wave Book</Title>
+    <Author>Fidel Martin</Author>
+    <Price>79</Price>
+    <Image>06.jpg</Image>
+    <CateID>2</CateID>
+    <mota>"Find The Wave Book là một tác phẩm thú vị, kích thích tâm hồn và tạo động lực. Với 50 trang đầy ắp những trải nghiệm hấp dẫn, sách mang đến cho độc giả những chân lý sâu sắc về cuộc sống và cung cấp những chiều sâu tư duy để khám phá bản thân. Mỗi trang là một làn sóng tri thức, mời gọi độc giả hòa mình vào cuộc hành trình khám phá sự ý nghĩa và mục đích trong cuộc sống."</mota>
+    <FileBook>1.pdf</FileBook>
+  </Book>
+  <Book>
+    <BookID>7</BookID>
+    <Title>See the More Story</Title>
+    <Author>Jules Boutin</Author>
+    <Price>79</Price>
+    <Image>07.jpg</Image>
+    <CateID>2</CateID>
+    <mota>"See the More Story là một nền tảng chia sẻ câu chuyện độc đáo, nơi mọi người có thể kể về những trải nghiệm, học được từ cuộc sống và chia sẻ những câu chuyện đầy cảm hứng. Với cộng đồng đa dạng, See the More Story mở cánh cửa cho sự kết nối và sự hiểu biết sâu rộng, tạo ra không gian trực tuyến cho mọi người để tìm thấy sự đồng cảm và ý nghĩa trong những câu chuyện cá nhân."</mota>
+    <FileBook>1.pdf</FileBook>
+  </Book>
+  <Book>
+    <BookID>8</BookID>
+    <Title>The Wikde Book</Title>
+    <Author>Kusti Franti</Author>
+    <Price>79</Price>
+    <Image>08.jpg</Image>
+    <CateID>3</CateID>
+    <mota>"The Wilde Book là một tác phẩm văn học độc đáo, với trang viết đẹp mắt và câu chuyện sâu sắc, nó mở cánh cửa cho độc giả bước vào thế giới phong phú của sự sáng tạo và tưởng tượng. Điều này làm nổi bật tác phẩm như một biểu tượng văn hóa, tạo ra trải nghiệm đọc hấp dẫn và đầy cảm xúc."</mota>
+    <FileBook>1.pdf</FileBook>
+  </Book>
+  <Book>
+    <BookID>9</BookID>
+    <Title>Conversion Erik Routley</Title>
+    <Author>Argele Intili</Author>
+    <Price>79</Price>
+    <Image>09.jpg</Image>
+    <CateID>3</CateID>
+    <mota>"Conversion Erik Routley là một nhà thần học và nhạc sĩ người Anh, sinh vào năm 1917. Ông nổi tiếng với công trình nghiên cứu về tôn giáo và âm nhạc, đặc biệt là trong lĩnh vực lịch sử thánh ca. Routley đã góp phần quan trọng vào việc hiểu sâu sắc về sự chuyển đổi tâm hồn qua âm nhạc tôn giáo."</mota>
+    <FileBook>1.pdf</FileBook>
+  </Book>
+  <Book>
+    <BookID>10</BookID>
+    <Title>The Leo Dominica</Title>
+    <Author>Henry Jurk</Author>
+    <Price>79</Price>
+    <Image>11.jpg</Image>
+    <CateID>3</CateID>
+    <mota>"The Leo Dominica là một tác phẩm nghệ thuật độc đáo với chiều sâu tâm huyết và sức sáng tạo không giới hạn. Với kích thước 50 cm, nó mang đến trải nghiệm đắ immersion độc đáo, kết hợp giữa sự tinh tế và sức mạnh nghệ thuật."</mota>
+    <FileBook>1.pdf</FileBook>
+  </Book>
+  <Book>
+    <BookID>11</BookID>
+    <Title>By The Editbeth Jat</Title>
+    <Author>David King</Author>
+    <Price>79</Price>
+    <Image>12.jpg</Image>
+    <CateID>4</CateID>
+    <mota>"Trong chứng khoán và thị trường tài chính, dám tham gia đầu tư cũng là một thành công tâm lý ban đầu. Dù vậy, 95% nhà đầu tư Việt Nam thuộc nhóm nhà đầu tư nhỏ lẻ với vốn kiến thức tài chính vô cùng hạn chế. Họ tham gia vào thị trường chứng khoán với 100% ý chí và sự quyết tâm chiến thắng thị trường, nhưng thật không may mắn kết cục cuối cùng của họ luôn là sự thất bại và mất tiền.</mota>
+    <FileBook>1.pdf</FileBook>
+  </Book>
+  <Book>
+    <BookID>12</BookID>
+    <Title>The Crucial Decade</Title>
+    <Author>Attilio Marzi</Author>
+    <Price>79</Price>
+    <Image>06.jpg</Image>
+    <CateID>4</CateID>
+    <mota>"The Crucial Decade" là một cuốn sách sâu sắc khám phá và phân tích những thách thức quan trọng trong thập kỷ quyết định, đưa ra cái nhìn sắc bén về những biến động quyết định tương lai. Tác giả đi sâu vào những sự kiện quan trọng, góp phần định hình thế giới trong giai đoạn quyết định này. "The Crucial Decade" không chỉ là một cuốn sách lịch sử mà còn là một công cụ thông tin quan trọng, mở ra những cơ hội và thách thức đặt ra trước chúng ta trong thập kỷ quan trọng này.</mota>
+    <FileBook>1.pdf</FileBook>
+  </Book>
+  <Book>
+    <BookID>36</BookID>
+    <Title>Phạm Văn Bảo test update3</Title>
+    <Author>Phạm Văn Bảo</Author>
+    <Price>70.00</Price>
+    <Image>bookLogo-Bộ-Y-tế-01.jpg</Image>
+    <CateID>2</CateID>
+    <mota>
+    </mota>
+    <FileBook>bookfileTuần 8- EC2 và S3.pdf</FileBook>
+  </Book>
+</anh>

@@ -99,7 +99,7 @@ namespace SellBookStore.Areas.Admin.Controllers
                         filename = "bookfile" + file.FileName;
                         string path = Path.Combine(Server.MapPath("~/Assets/BooksFilePdf"), filename);
                         file.SaveAs(path);
-                        XmlElement fileElement = xmlDoc.CreateElement("Filebook");
+                        XmlElement fileElement = xmlDoc.CreateElement("FileBook");
                         fileElement.InnerText = filename;
                         bookElement.AppendChild(fileElement);
                     }

@@ -44,7 +44,7 @@ namespace SellBookStore.Areas.Admin.Controllers
                     book.Price = decimal.Parse(bookNode.SelectSingleNode("Price").InnerText);
                     book.Image = bookNode.SelectSingleNode("Image").InnerText;
                     book.Mota = bookNode.SelectSingleNode("mota").InnerText;
-                    book.Filebook = bookNode.SelectSingleNode("Filebook").InnerText;
+                    book.FileBook = bookNode.SelectSingleNode("FileBook").InnerText;
                     booksList.Add(book);
                 }
             }
